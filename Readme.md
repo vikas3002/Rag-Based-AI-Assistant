@@ -1,4 +1,4 @@
-# Document-Grounded RAG Chatbot
+# AI RAG Assistant
 
 A Flask chatbot that answers questions **only from your own documents** (PDF, DOCX, TXT, MD). Documents are chunked, embedded with a local sentence-transformer model, and stored in a persistent ChromaDB index. At question time the most relevant chunks are retrieved and passed to an LLM served through Groq's OpenAI-compatible API.
 
